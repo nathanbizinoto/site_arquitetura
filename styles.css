@@ -1,18 +1,43 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*{
+    box-sizing: border-box;
+}
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 5px;
     background-color: #363636;
+    background: transparent;
     color: rgb(255, 255, 255); 
-    border: 1px solid #1d1d1d;
+    border: 1px solid transparent;
     margin-top: 0;
 }
 
 .logo {
-    height: 90px;
+    height: 75px;
     border-radius: 100%;
+    margin-left: 15px;
     
 }
 
@@ -53,14 +78,14 @@ nav a:hover{
 .imagempri {
     width: 100%;
     height: 550px;
-    opacity: 70%;
+    opacity: 100%;
     border-radius: 0%;
-    padding-right: 35px;
+    
    
 }
 
 body {
-    background-color: #706f6f;
+    background-color: #353434;
 }
 .container {
     text-align: center;
@@ -77,15 +102,16 @@ body {
 }
 
 .caixinhas {
-    width: 200px;
+   
     margin: 10px;
-    border: 1px solid #ccc;
-    padding: 15px;
-    background-color: rgb(174, 179, 176);
+    border: 1px solid transparent;
+    padding: 45px 35px;
+    background-color: #a4ad9e;
     text-align: center;
     transition: transform 0.2s; 
     font-family: 'Kanit', sans-serif;
     font-size: large;
+    border-radius: 20px;
 }
 
 .caixinhas:hover {
@@ -118,20 +144,32 @@ body {
     padding-bottom: 15px;
 }
 .imgmeio{
-    height: 450px ;
-    width: auto;
-    border-radius: 75px;
-    margin-right: 20px;
+    width: 100%;
+    height: 550px;
+    opacity: 100%;
+    border-radius: 0%;}
+
+.img2{
+    width: 50%;
+    height: auto;
+    margin: 20px;
 }
 
 .divmeio2{
-    flex: 1;
+   display: flex;
+}
+
+.divmeio2 h1{
+    color: white;
+    align-items: center;
+}
+
+.divmeio2 h2{
+    color: white;
     text-align: center;
-    font-family: 'Kanit', sans-serif;
-    justify-content: center;
-    color: #000000;
-    background-color: #706f6f;
-    padding: 15px;
+    font-size: 30px;
+    margin: 60px;
+    
 }
 
 .botao{
@@ -143,6 +181,8 @@ body {
     font-size: large;
     transition: transform 0.2s;
     text-decoration: none;
+    margin-top: 30px;
+    border-radius: 16px;
 }
 
 .botao a{
