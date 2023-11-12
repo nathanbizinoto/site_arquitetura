@@ -1,13 +1,13 @@
-# Site Arquitetura Luan Bruno
-Este é um projeto simples de um site desenvolvido em HTML e CSS dedicado ao trabalho do arquiteto Luan Bruno. O propósito principal deste site é apresentar aos visitantes uma visão do portfólio do arquiteto. O site também fornece informações sobre os serviços oferecidos e um pouco sobre a carreira do arquiteto.
-## Conteúdo
+# Luan Bruno Architecture Website
+This is a simple project of a website developed in HTML and CSS dedicated to the work of the architect Luan Bruno. The main purpose of this site is to present visitors with a view of the architect's portfolio. The site also provides information about the services offered and a bit about the architect's career.
+## Content
 
-- [Demonstração](#demonstração)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Demonstration](#demonstration)
+- [Technologies Used](#technologies-used)
 
-## Demonstração
+## Demonstration
 
-Você pode verificar a demonstração deste projeto [aqui!!!!!](https://arqluanvba.bohr.io).
+You can check out the demonstration of this project [here!](https://arqluanvba.bohr.io).
 
 Link: https://arqluanvba.bohr.io
 
@@ -16,88 +16,86 @@ Link: https://arqluanvba.bohr.io
 - HTML5
 - CSS3
 
-## Lista e Explicação de Tags HTML
+## HTML Tags List and Explanation:
 
-!DOCTYPE html: Esta declaração define o tipo de documento HTML sendo usado, que é HTML5 neste caso. Ela deve estar no início de cada documento HTML para especificar a versão do HTML que está sendo usada.
+!DOCTYPE html: This declaration specifies the HTML version in use, which is HTML5 in this case. It should be at the beginning of every HTML document to specify the HTML version being used.
 
-html: Esta é a tag raiz que envolve todo o conteúdo HTML da página. Ela indica o início de um documento HTML.
+html: This is the root tag that encloses all HTML content on the page, indicating the beginning of an HTML document.
 
-head: A seção "head" contém metadados sobre o documento HTML, como o conjunto de caracteres, o título da página e links para folhas de estilo externas.
+head: The "head" section contains metadata about the HTML document, such as character set, page title, and links to external style sheets.
 
-meta: As tags "meta" fornecem informações adicionais sobre o documento HTML. No seu caso, você usou duas tags "meta" para definir o conjunto de caracteres (UTF-8) e a configuração da viewport.
+meta: The "meta" tags provide additional information about the HTML document. In your case, you used two "meta" tags to set the character set (UTF-8) and viewport configuration.
 
-title: A tag "title" define o título da página que é exibido na barra de título do navegador. É uma parte importante para a otimização de mecanismos de busca (SEO) e também para ajudar os usuários a identificar a página.
+title: The "title" tag defines the page title displayed in the browser's title bar. It is crucial for search engine optimization (SEO) and helps users identify the page.
 
-link:A tag "link" é usada para vincular recursos externos ao documento HTML. No seu caso, você a usou para vincular uma folha de estilo externa (styles.css) ao seu documento.
+link: The "link" tag is used to link external resources to the HTML document. In your case, you used it to link an external style sheet (styles.css) to your document.
 
-body:A tag "body" contém o conteúdo visível da página, como texto, imagens e elementos HTML. Tudo o que você deseja que os usuários vejam na página deve estar dentro desta tag.
+body: The "body" tag contains the visible content of the page, such as text, images, and HTML elements. Everything you want users to see on the page should be inside this tag.
 
-header:A tag "header" é usada para definir a seção do cabeçalho do seu site, que geralmente contém elementos como logotipos, menus de navegação e informações de contato.
+header: The "header" tag is used to define the header section of your site, which typically contains elements like logos, navigation menus, and contact information.
 
-nav:A tag "nav" define uma seção de navegação em seu site. Normalmente, ela contém menus ou links de navegação que ajudam os usuários a se locomover pelo site.
+nav: The "nav" tag defines a navigation section on your site, usually containing menus or navigation links that help users navigate.
 
-ul e li:"ul" (unordered list) e "li" (list item) são usadas para criar listas não ordenadas. No seu caso, você usou essas tags para criar uma lista não ordenada de itens de menu de navegação.
-  
-h1, h2:As tags "h1", "h2", etc., são usadas para criar cabeçalhos ou títulos em uma página. Elas indicam a importância e a hierarquia do texto na página, sendo "h1" o título mais importante.
+ul and li: "ul" (unordered list) and "li" (list item) are used to create unordered lists. In your case, you used these tags to create an unordered list of navigation menu items.
 
-"img":A tag "img" é usada para inserir imagens na página. Você especifica o caminho da imagem no atributo src e pode adicionar um texto alternativo no atributo alt para acessibilidade.
+h1, h2: The "h1", "h2", etc., tags are used to create headers or titles on a page. They indicate the importance and hierarchy of text on the page, with "h1" being the most important title.
 
-"p":A tag "p" é usada para criar parágrafos de texto na página. Ela é usada para separar e formatar o texto em blocos legíveis.
+img: The "img" tag is used to insert images into the page. You specify the image path in the src attribute and can add alternative text in the alt attribute for accessibility.
 
-"a":A tag "a" cria hiperlinks ou âncoras para outras páginas ou recursos da web. O atributo href especifica o URL de destino para onde o link leva.
+p: The "p" tag is used to create paragraphs of text on the page. It separates and formats the text into readable blocks.
 
-## Lista e Explicação de Seletores CSS 
+a: The "a" tag creates hyperlinks or anchors to other pages or web resources. The href attribute specifies the destination URL for the link.
 
-body: Define estilos para todo o corpo da página.
+## CSS Selectors List and Explanation:
 
-header: Estilos para a seção do cabeçalho.
+body: Defines styles for the entire body of the page.
 
-.logo: Estilos para o logotipo no cabeçalho.
+header: Styles for the header section.
 
-nav: Estilos para a barra de navegação.
+.logo: Styles for the logo in the header.
 
-nav ul: Estilos para a lista não ordenada na barra de navegação.
+nav: Styles for the navigation bar.
 
-nav li: Estilos para os itens de lista na barra de navegação.
+nav ul: Styles for the unordered list in the navigation bar.
 
-nav a: Estilos para links de âncora na barra de navegação.
+nav li: Styles for list items in the navigation bar.
 
-nav a:hover: Estilos para os links de navegação ao passar o mouse.
+nav a: Styles for anchor links in the navigation bar.
 
-.imagempri: Estilos para a imagem principal.
+nav a:hover: Styles for navigation links when hovered.
 
-.container: Estilos para um contêiner geral.
+.imagempri: Styles for the main image.
 
-.caixinhas: Estilos para caixas contendo informações.
+.container: Styles for a general container.
 
-.caixinhas:hover: Estilos para as caixas ao passar o mouse.
+.caixinhas: Styles for boxes containing information.
 
-.infos: Estilos para uma seção contendo informações.
+.caixinhas:hover: Styles for boxes when hovered.
 
-.info: Estilos para peças individuais de informação.
+.infos: Styles for a section containing information.
 
-.meio: Estilos para a seção do meio da página.
+.info: Styles for individual pieces of information.
 
-.imgmeio: Estilos para imagens na seção do meio.
+.meio: Styles for the middle section of the page.
 
-.divmeio2: Estilos para uma divisão específica na seção do meio.
+.imgmeio: Styles for images in the middle section.
 
-.botao: Estilos para botões.
+.divmeio2: Styles for a specific division in the middle section.
 
-.botao a: Estilos para links de botão.
+.botao: Styles for buttons.
 
-.botao:hover: Estilos para botões ao passar o mouse.
+.botao a: Styles for button links.
 
-.perfil: Estilos para uma foto de perfil.
+.botao:hover: Styles for buttons when hovered.
 
-.foto: Estilos para uma foto.
+.perfil: Styles for a profile picture.
 
-.foto:hover: Estilos para a foto ao passar o mouse.
+.foto: Styles for a photo.
 
-.textdiv: Estilos para uma divisão contendo texto da div.
+.foto:hover: Styles for the photo when hovered.
 
-.txt: Estilos para o texto do footer
+.textdiv: Styles for a division containing text in the div.
 
-
+.txt: Styles for footer text.
 
 
